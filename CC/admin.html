@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - CleanConnect</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Admin Panel */
+        .admin-panel {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .admin-panel h2 {
+            color: #2a9d8f;
+            margin-bottom: 20px;
+        }
+
+        /* Sections */
+        .admin-section {
+            margin-bottom: 20px;
+        }
+
+        .admin-section h3 {
+            color: #264653;
+            margin-bottom: 10px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2a9d8f;
+            color: white;
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 10px;
+            color: white;
+            background-color: #2a9d8f;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #264653;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #2a9d8f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #e76f51;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="admin-panel">
+            <h2>Welcome, Admin</h2>
+
+            <!-- User Management Section -->
+            <div class="admin-section">
+                <h3>User Management</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>john_doe</td>
+                            <td>john@example.com</td>
+                            <td>Citizen</td>
+                            <td>
+                                <button class="btn">Edit</button>
+                                <button class="btn">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>admin_user</td>
+                            <td>admin@example.com</td>
+                            <td>Admin</td>
+                            <td>
+                                <button class="btn">Edit</button>
+                                <button class="btn">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Report and Statistics Section -->
+            <div class="admin-section">
+                <h3>Reports and Statistics</h3>
+                <p>Total Issues Reported: 150</p>
+                <p>Issues Resolved: 120</p>
+                <p>Pending Issues: 30</p>
+                <!-- Add more statistical information as needed -->
+            </div>
+
+            <!-- Content Management Section -->
+            <div class="admin-section">
+                <h3>Content Management</h3>
+                <button class="btn">Update Resources</button>
+                <button class="btn">Manage FAQs</button>
+                <button class="btn">Edit Articles</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 CleanConnect. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+    </div>
+</body>
+</html>
