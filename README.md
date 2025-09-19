@@ -75,12 +75,6 @@ clean-city-project/
 └── README.md
 ```
 
-## 🙌 Contributors
-
-* **V. Sai Yaswin**
-* **K. Pradyumna**
-* **N. Vamshi Krishna**
-
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
